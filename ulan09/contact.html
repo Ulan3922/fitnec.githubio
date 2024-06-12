@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="Global.css">
+</head>
+<body>
+<header>
+    <div class="lang lang_fixed">
+        <div id="ytWidget" style="display: none;"></div>
+        <div class="lang__link lang__link_select" data-lang-active>
+            <img width="35" height="35" class="lang__img lang__img_select" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Russia.png" alt="Ru">
+        </div>
+        <div class="lang__list" data-lang-list>
+            <a class="lang__link lang__link_sub" data-ya-lang="ru">
+                <img width="35" height="35" class="lang__img" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Russia.png" alt="ru">
+            </a>
+            <a class="lang__link lang__link_sub" data-ya-lang="en">
+                <img width="35" height="35" class="lang__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_the_United_States.png/800px-Flag_of_the_United_States.png" alt="en">
+            </a>
+            <a href="#" data-ya-lang="ky"><img width="35" height="35" src="https://www.vayborz.de/cdn/shop/files/all-over-print-flag-white-front-6553c44db7eed.png?v=1699988571&width=1946" alt="Kyrgyz"></a>
+        </div>
+    </div>
+    <h1>Контакты</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="schedule.html">Расписание</a></li>
+            <li><a href="membership.html">Абонементы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contacts">
+    <section class="contact-info">
+        <h2>Как нас найти</h2>
+        <p>Адрес: ул. Ибраимова 103/2</p>
+        <p>Телефон: +996 555 555 555</p>
+        <p>Email: info@fitnessclub.com</p>
+    </section>
+
+    <section class="contact-form">
+        <h2>Обратная связь</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Фитнес клуб "Здоровье". Все права защищены.</p>
+</footer>
+</body>
+<script src="translate.js"></script>
+</html>
